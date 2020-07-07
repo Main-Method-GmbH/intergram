@@ -8,9 +8,6 @@ Docker Image for integrating self hosted Live Chat on your website with Telegram
 3. Use the API Token as environment variable TELEGRAM_TOKEN in the docker run command below
 
 ## Use our Docker Image
-docker run -d -p 80:3000 -e TELEGRAM_TOKEN="Your Token" mainmethod/intergram
-
-## Use our Docker Image
 `docker run -d -p 80:3000 -e TELEGRAM_TOKEN="Your Token" mainmethod/intergram`
 
 ## Build on your own
