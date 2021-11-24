@@ -3,7 +3,7 @@ FROM node:alpine
 MAINTAINER Maik Herrmann <maik.herrmann@main-method.com>
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache git
+    apk add --no-cache git curl
 
 ENV HOME=/opt/intergram
 ENV PORT=3000
